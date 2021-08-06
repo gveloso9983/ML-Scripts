@@ -1,0 +1,2 @@
+Dataset Obtido do Kaggle
+https://www.kaggle.com/goncaloveloso/s-p500-gru-time-series-prediction/edit

@@ -124,8 +124,6 @@ def build_model(timesteps, features, filters= 16, kernel_size=5, pool_size =2 ):
         #the model
         cnnModel = tf.keras.Model(inputs=inputs, outputs=outputs, name='cnn_model')
         tf.keras.utils.plot_model(cnnModel,'S&P500_cnnmodel.png', show_shapes=True)
-
-        
         return cnnModel
 
 #Compiling and fit the model
